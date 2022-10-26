@@ -4,7 +4,7 @@ const router = require('./routes/book-routes')
 const cors = require('cors')
 const app = express()
 
-const PORT = process.env.PORT || 3000
+
 
 
 app.use(express.json());
@@ -23,8 +23,4 @@ const db = mongoose.connection
 
 db.once("open", ()=>{console.log("banco de dados carregado")})
 
-app.listen(PORT,()=>{
-
-  console.log("servidor rodando na porta 3000")
-  
-  })
+app.listen(PORT || 3000)
