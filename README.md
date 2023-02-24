@@ -1,4 +1,4 @@
-## 📚 Sistema de Livros
+## 📚 Sistema Livraria
 
 ### Aplicação que permite qualquer usuário postar um livro de seu interesse especificando o autor,nome,descrição,colocando alguma imagem e inserindo o preço do mesmo. 
 ### Após publicado esse livro é salvo e exibido para todos os usuários, também existe a possibilidade de atualizar as informações do livro ou até apagar o mesmo. Para criar esse sistema utilizei do Banco de Dados MongoDB junto da ferramenta NodeJs para o código
